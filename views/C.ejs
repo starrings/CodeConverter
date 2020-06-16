@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Code Converter </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+	<body>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+    <span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+    <h1>This is a <strong><a href="index.html">code converter.</a></strong> It's available to everyone, from kids to adults.<br>
+    and Open your eyes, listen carefully, and focus.</h1>
+    <ul class="icons">
+      <li><a href="https://twitter.com/" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="https://www.facebook.com/" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="https://www.instagram.com/" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="https://web.500px.com/" class="icon style2 fa-500px"><span class="label">500px</span></a></li>
+      <li><a href="https://mail.google.com/mail/u/0/#inbox" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
+    </ul>
+    </header>
+
+    <br><br><br><br><br><br>
+
+    <!-- Main -->
+
+    <section id="main">
+
+    <!-- Thumbnails -->
+
+                <main id = "main">
+                  <section class = "thumbnails">
+
+                    <div class="sample_image" style="margin-left: auto; margin-right: auto; display: block;"/>
+                      <form action="http://localhost:8080/C" method="POST" method="POST" id="theForm">
+                        <center>
+                          <fieldset class="this">
+                            <legend>
+                              <font size = "5" class="title"> C Translation </font>
+                            </legend>
+                            <br><br>
+                            <label>
+                              EX ) 'Hello GSM'를 출력해줘.
+                            </label>
+
+                            <br><br><br>
+
+                            <label>
+                              <input type="text" id="name" placeholder=" 여백 없이 입력" name='code' required>
+                              <br><br><br>
+                              <input value="Submit" type="submit" onclick="doit();"/>
+                              <input value="Reset" type="reset"/>
+                            </label>
+
+                          </fieldset>
+                        </center>
+                        <p><pre text-align="left"><%= title %><pre></p>
+                      </form>
+                    </div>
+                  </section>
+                </main>
+
+                      <br><br><br>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p> © Code Converter </p>
+					</footer>
+			</div>
+	</body>
+</html>
